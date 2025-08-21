@@ -1,0 +1,7 @@
+.nav__logo--title {
+    font-size: 58px;
+}
+
+.row .nav__row {
+    display: flex;
+}
