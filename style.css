@@ -89,6 +89,10 @@ nav {
   transition: all 300ms ease;
 }
 
+.nav__link--primary:hover {
+    background-color: rgba(60, 13, 153);
+}
+
 .login {
     margin-left: 48px;
 }
