@@ -93,5 +93,16 @@ nav {
     margin-left: 48px;
 }
 
+.btn__menu {
+    display: none;
+    background: transparent;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.btn__menu--svg:hover {
+    filter: invert(26%) sepia(94%) hue-rotate(261deg) brightness(94%) contrast(115%);
+}
+
 
 
