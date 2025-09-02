@@ -219,6 +219,7 @@ header .row {
 .header__email {
     width: 100%;
     max-width: 448px;
+    height: 68px;
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -247,7 +248,7 @@ header .row {
     width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
-    padding: 20px 32px;
+    padding: 20px 192px 20px 32px;
     color: rgb(36, 62, 99);
     font-size: 16px;
     font-weight: 500;
