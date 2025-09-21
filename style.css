@@ -372,3 +372,10 @@ FEATURES
 
 */
 
+.features {
+    display: flex;
+}
+
+.feature__img {
+    width: 50px;
+}
