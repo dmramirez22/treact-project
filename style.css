@@ -736,7 +736,8 @@ PRICING
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(26, 32, 44);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; 
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; 
 }
 
 .plan__stripe {
@@ -830,7 +831,9 @@ PRICING
  
 .plan__button:hover {
     transform: translate(1px, -1px);
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .plan:nth-child(1) .plan__stripe, 
@@ -839,8 +842,16 @@ PRICING
     background: linear-gradient(
         115deg, 
         rgb(56, 178, 172) 0%, 
-        rgb(102, 126, 234) 100%
+        rgb(129, 230, 217) 100%
         );
+}
+
+.plan:nth-child(2) {
+    background: linear-gradient(
+        135deg, 
+        rgb(76, 81, 191) 0%,
+        rgb(102, 126, 234) 100%
+    );
 }
 
 .plan:nth-child(2) .plan__button {
@@ -874,6 +885,7 @@ PRICING
 
 .plan:nth-child(2) .plan__name, 
 .plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
 .plan:nth-child(2) .plan__duration,
 .plan:nth-child(2) .plan__feature {
     color: #f7fafc;
