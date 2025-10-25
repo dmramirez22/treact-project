@@ -894,7 +894,12 @@ PRICING
 .plan:nth-child(1) .plan__middle, 
 .plan:nth-child(3) .plan__middle {
     border-top: 2px solid rgb(229, 231, 235);
-    border-bottom: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(229, 231, 235);
+}
+
+.plan:nth-child(2) .plan__middle {
+    border-top: 2px solid rgb(102, 126, 235);
+    border-bottom: 2px solid rgb(102, 126, 235);
 }
 
 .plans__blob {
