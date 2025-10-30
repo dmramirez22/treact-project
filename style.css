@@ -1315,3 +1315,53 @@ footer__logo--text {
 MOBILE RESPONSIVENESS
 
 */
+
+@media (max-width: 1280px) {
+
+    
+    header .row {
+        align-items: flex-end;
+    }
+    
+    .steps__grid {
+        height: 5rem;
+        width: 5rem;
+        bottom: -50px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        color: #1a202c;
+        bottom: -50px;
+    }
+    
+    .header__description--para {
+        font-size: 16px;
+    }
+    
+    .header__customers {
+        padding-right: 64px;
+    }
+
+    .header__img--wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .header__img {
+        max-width: 512px;
+    }
+    
+    .plan__button {
+        max-width: none;
+    }
+    
+    .plan__bottom {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .testimonials__description {
+        width: calc(100% - 40%);
+    }
+}
