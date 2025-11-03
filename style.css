@@ -238,13 +238,17 @@ nav {
     margin: 24px 16px;
     padding: 32px;
     background-color: #fff;
-    border: 1px solid rbg(229, 231, 235);
+    border: 1px solid rgb(229, 231, 235);
     border-radius: 8px;
     z-index: 4;
     visibility: hidden;
     opacity: 0;
     transform: translateX(300%);
     transition: all 300ms ease;
+}
+
+.menu {
+    display: flex;
 }
 
 .menu--open {
