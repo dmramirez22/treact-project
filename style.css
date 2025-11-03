@@ -379,7 +379,7 @@ header .row {
 .header__customers--title {
     margin-top: 80px;
     color: #a0aec0;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.6;
 }
@@ -1418,7 +1418,7 @@ MOBILE RESPONSIVENESS
     }
 
     .header__description--para {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     .header__customers {
@@ -1658,12 +1658,13 @@ MOBILE RESPONSIVENESS
     .header__email--btn {
         width: 100%;
         padding: 16px 0;
+        margin: 16px 0;
         margin-bottom: 0px;
         line-height: 1.5;
     }
 
     .header__customer--title {
-        font-size: 30px;
+        font-size: 14px;
         letter-spacing: 0.05em;
     }
 
